@@ -69,7 +69,7 @@ const loginUser = (email, password) => {
   console.log("Log in");
 };
 const getUserInfo = (email) => {
-  console.log("Fetching user info...");
+  console.log("getting new email");
 };
 const updateUser = (email, newInfo) => {
   console.log("Update user info");
