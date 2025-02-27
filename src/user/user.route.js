@@ -3,6 +3,7 @@ import createUser from "./user.service.js";
 import userController from "./user.controller.js";
 import changeInfo from "./user.controller.js";
 import users from "./user.service.js";
+import { users } from "./users.js";
 
 const router = express.Router();
 router.put("/changeInfo", userController.changeInfo);

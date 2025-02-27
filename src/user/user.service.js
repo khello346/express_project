@@ -35,12 +35,12 @@ const userInfo = async (login, changeUserInfo, changePassword) => {
   console.log();
 };
 
-const users = [
+export const users = [
   {
     firstName: "toni",
     lastName: "khalil",
     password: "pass123",
-    email: "alice@gmail.com",
+    email: "jiba@gmail.com",
     phoneNumber: "1234567890",
   },
   {
@@ -54,7 +54,7 @@ const users = [
     firstName: "charbel",
     lastName: "jdk",
     password: "popo123",
-    email: "charlie@gmail.com",
+    email: "charb@gmail.com",
     phoneNumber: "555667788",
   },
 ];
@@ -64,5 +64,4 @@ console.log(users);
 export default {
   createUser,
   userInfo,
-  users,
 };
