@@ -61,7 +61,26 @@ export const users = [
 
 console.log(users);
 
+const createUser1 = (firstName, lastName, password, email, phoneNumber) => {
+  console.log(" new user");
+};
+
+const loginUser = (email, password) => {
+  console.log("Log in");
+};
+const getUserInfo = (email) => {
+  console.log("Fetching user info...");
+};
+const updateUser = (email, newInfo) => {
+  console.log("Update user info");
+};
+const changePassword = (email, oldPassword, newPassword) => {
+  console.log("Change password");
+};
 export default {
-  createUser,
-  userInfo,
+  createUser1,
+  loginUser,
+  getUserInfo,
+  updateUser,
+  changePassword,
 };

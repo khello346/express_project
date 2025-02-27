@@ -2,8 +2,14 @@ import userService from "./user.service.js";
 
 const signUp = async (req, res) => {
   try {
-    const { email, firstName, lastName, password } = req.body;
-    await userService.createUser(email, firstName, lastName, password);
+    const { email, firstName, lastName, password, phoneNumber } = req.body;
+    await userService.createUser(
+      email,
+      firstName,
+      lastName,
+      password,
+      phoneNumber
+    );
 
     res.status(200).json({ message: "User added successfully" });
   } catch (error) {
