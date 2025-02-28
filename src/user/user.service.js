@@ -78,6 +78,7 @@ const changePassword = (email, oldPassword, newPassword) => {
   console.log("Change password");
 };
 export default {
+  createUser,
   createUser1,
   loginUser,
   getUserInfo,
